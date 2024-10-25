@@ -1,4 +1,4 @@
-import { people } from "../content/data"
+import { people } from "../../content/data"
 
 const OurTeam = () => {
   return (

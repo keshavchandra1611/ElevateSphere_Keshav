@@ -1,4 +1,4 @@
-import {features} from "../content/data.jsx";
+import {features} from "../../content/data.jsx";
 
 const FeaturesSection = () => {
   return(

@@ -1,6 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
 import img from "../assets/RandImg.jpg";
-import { benefits } from "../content/data";
+import { benefits } from "../../content/data";
 
 const Benefits = () => {
   return (

@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import img from "../assets/RandImg.jpg";
+import img from "../../assets/RandImg.jpg";
 
 const Navbar = () => {
 
