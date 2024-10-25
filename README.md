@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The AI-Powered Open Innovation Hub is a platform designed to crowdsource innovative solutions by leveraging AI and real-time collaboration. It allows organizations to post challenges, where AI-generated ideas serve as a starting point for global participants. Users can collaborate, refine ideas, and submit solutions, which are then ranked by AI based on creativity, feasibility, and impact. The platform promotes cross-industry innovation by suggesting solutions from one domain for application in another. By using generative AI and collaborative tools, the hub accelerates problem-solving and fosters a community-driven approach to innovation.
