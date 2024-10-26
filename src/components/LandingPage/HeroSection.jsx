@@ -1,5 +1,5 @@
-import gif1 from "../assets/gif1.mp4";
-import gif2 from "../assets/gif2.mp4";
+import gif1 from "../../assets/gif1.mp4";
+import gif2 from "../../assets/gif2.mp4";
 
 const HeroSection = () => {
   return (

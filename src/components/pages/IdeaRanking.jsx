@@ -1,7 +1,7 @@
 // src/pages/IdeaRanking.js
 import React, { useState } from "react";
-import IdeaCard from "../components/IdeaCard";
-import Leaderboard from "../components/Leaderboard";
+import IdeaCard from "../IdeaCard";
+import Leaderboard from "../Leaderboard";
 
 const IdeaRanking = () => {
   // Sample ideas for ranking

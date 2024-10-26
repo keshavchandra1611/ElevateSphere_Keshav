@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import img from "../../assets/RandImg.jpg";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -18,11 +19,11 @@ const Navbar = () => {
           </div>
 
           <ul className="hidden lg:flex ml-14 space-x-12">
-            <li>HOME</li>
-            <li>Product</li>
-            <li>Customers</li>
-            <li>Pricing</li>
-            <li>Resources</li>
+            <Link to="/"><li>HOME</li></Link>
+            <Link to="/"><li>Product</li></Link>
+            <Link to="/customer"><li>Customers</li></Link>
+            <Link to="pricingpage"><li>Pricing</li></Link>
+            <Link to="/resources"><li>Resources</li></Link>
           </ul>
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
@@ -47,11 +48,11 @@ const Navbar = () => {
         {mobileDrawerOpen && (
           <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
-              <li>HOME</li>
-              <li>Use Cases</li>
-              <li>Customers</li>
-              <li>Pricing</li>
-              <li>Resources</li>
+            <Link to="/"><li>HOME</li></Link>
+            <Link to="/"><li>Use Cases</li></Link>
+            <Link to="/customer"><li>Customers</li></Link>
+            <Link to="pricingpage"><li>Pricing</li></Link>
+            <Link to="/resources"><li>Resources</li></Link>
             </ul>
             <div className="flex space-x-6">
               <a href="#" className="py-2 px-3 border rounded-md">

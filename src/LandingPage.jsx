@@ -1,5 +1,5 @@
 import Navbar from "./components/LandingPage/Navbar";
-import HeroSection from "./components/LandingPage/nHeroSection";
+import HeroSection from "./components/LandingPage/HeroSection";
 import FeaturesSection from "./components/LandingPage/FeaturesSection";
 import Benefits from "./components/LandingPage/Benefits";
 import OurTeam from "./components/LandingPage/OurTeam";

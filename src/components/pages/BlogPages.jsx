@@ -1,6 +1,6 @@
 // src/pages/BlogPage.js
 import React from "react";
-import CarouselComponent from "../components/CarouselComponent";
+import CarouselComponent from "../CarouselComponent";
 
 const blogPosts = [
   {
@@ -35,6 +35,7 @@ const blogPosts = [
 
 const BlogPage = () => {
   return (
+    <>
     <div className="bg-gray-900 min-h-screen p-6 text-white">
       <div className="container mx-auto">
         {/* Carousel Section */}
@@ -125,6 +126,7 @@ const BlogPage = () => {
         </section>
       </div>
     </div>
+    </>
   );
 };
 
